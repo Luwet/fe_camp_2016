@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="Login">
+	<div class="Login-header"></div>
+	<div class="Login-content">
+		<h1></h1>
+		<label for="username"></label>
+		<input type="text" id="username" placeholder="Enter your Username" ><br/>
+		<label for="password"></label>
+		<input id="password" placeholder="Enter your Password" type="password"><br/>
+		<button id="button">Log In</button>
+	</div>
+</div>
+</body>
+<script>
+    var btn=document.getElementById('button');
+    btn.onclick=function()
+     {
+        alert('Welcome log in！You can search for books in the web.');
+        window.open("https://www.jiumodiary.com/");
+    }
+
+</script>
+</html>
